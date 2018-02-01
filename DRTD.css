@@ -305,7 +305,7 @@ background: #c42e3b;
 #room-settings .general-settings .welcome:after {
     text-align: center;
     position: absolute;
-    content: "<<<<<<<<<<<<by:PercyvaL>>>>>>>>>>>>";
+    content: "";
     margin-top: 120px;
     left: 40.9%
 }
@@ -611,119 +611,64 @@ border-radius: 8px;
 
 /---------------------------Tags:Perfil---------------------------\
 
-/*#### [TAG PERFIL] ####*/
-       
-	/*## [TAG-VIP] ##*/
-	
-       /*# [Percyvall] #*/
-#user-rollover.id-29319764 .level:after {
-    background-image: url(none);
-    background-repeat: no-repeat;
-    content: "[BOSS]";
-    display: inline-block;
-    color: #EEAD0E!important;
-    font-weight: bold;
-    margin: 0px 0px 0 20px!important;
-    padding: 0 0 0 18px;
+/* percival */
+#user-rollover.id-29319764:before{
+    content: 'GOSTOSO';
+    top: 95px;
+    left: 185px;
+    position: absolute;
+    display: inline-block; 
+    padding: 0 3px;
+    color: #f78fd4;
+    background: linear-gradient(rgba(0, 102, 102, 0.2), rgba(0, 102, 102, 0.2));
+    border-radius: 3px;
+    font-size: 10px;
 }
-       /*# [diarista] #*/
-#user-rollover.id-30597988 .level:after {
-    background-image: url(none);
+		/*# [percival] #*/
+[data-cid^="29319764-"] .msg .from .un {
+    position: relative;
+    left:-6px;
+    padding-left:20px;
+    background-image: url('https://image.prntscr.com/image/n1Tx86B0QhGmsg4MzZ2UqA.png');
     background-repeat: no-repeat;
-    content: "[BOT]";
-    display: inline-block;
-    color: #EEAD0E!important;
-    font-weight: bold;
-    margin: 0px 0px 0 20px!important;
-    padding: 0 0 0 18px;
+    background-position: 2px center;
+    background-size: 16px auto;
 }
-	/*## [TAG-EXTRA] ##*/
-	
-       /*# [Ninguem] #*/
-#user-rollover.id-000000 .level:after {
-    background-image: url(none);
-    background-repeat: no-repeat;
-    content: "[VIP]";
-    display: inline-block;
-    color: #EEAD0E!important;
-    font-weight: bold;
-    margin: 0px 0px 0 20px!important;
-    padding: 0 0 0 18px;
+		/*# [percival] #*/
+[data-cid^="29319764-"] .badge-box .bdg,
+#user-rollover.id-29319764 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("https://image.prntscr.com/image/VQWEV9GfT4K1mpg2ykFWvg.gif");
 }
-/*#### [TAG-IMAGEM-CHAT] ####*/
-
-    /*## [DIAMANTE] ##*/
-    
-        /*# [Percyvall] #*/
+		/*# [percival] #*/
+.cm.message.deletable.id-29319764::before,
+.cm.message.id-29319764::before {
+	background-image: url(https://i.imgur.com/Pm9RxNz.png);
+	background-repeat: no-repeat;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .2;
+	z-index: -1;
+	background-position-y: -10px;
+	background-position-x: right;
+}
+#chat [data-cid^="29319764-"] .from {
+	background: linear-gradient(to right, rgba(0, 0, 0,.12), transparent);
+	padding: 7px;
+	border-radius: 15px;
+}
+        /*# [percival] #*/
 #chat [data-cid^='29319764-'] .un:after, #user-lists .list .user.id-29319764 .name:after, #user-rollover.id-29319764 .username:after {
     content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
-    margin: 10px;
-    color: #2b7b30;
-}
-	/*## [TAG-EXTRA] ##*/
-	
-        /*# [diarista] #*/
-#chat [data-cid^='30597988-'] .un:after, #user-lists .list .user.id-30597988 .name:after, #user-rollover.id-30597988 .username:after {
-    content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
     margin: 5px;
     color: #2b7b30;
-}
-        /*# [Ninguem] #*/
-#chat [data-cid^='000000-'] .un:after, #user-lists .list .user.id-000000 .name:after, #user-rollover.id-000000 .username:after {
-    content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
-    margin: 5px;
-    color: #2b7b30;
-}
-/*#### [TAG-ANTES-DO-NOME-CHAT] ####*/
-
-    /*## [CSS/BOT/VIP] ##*/
-	
-        /*# [Ninguem] #*/
-#chat [data-cid^='000000-'] .un:before {
-    content: '[VIP]';
-    top: 0px;
-    Left: 0px;
-	color: #e2da24!important;
-    padding-left: 2px;
-    padding-right: 4px;
-    position: relative;
-}
-	/*## [TAG-EXTRA] ##*/
-	
-		/*# [Ninguem] #*/
-#chat [data-cid^='000000-'] .un:before {
-    content: '[VIP]';
-    top: 0px;
-    Left: 0px;
-	color: #44e7ed!important;
-    padding-left: 2px;
-    padding-right: 4px;
-    position: relative;
-}
-
-/*#### [EMBLEMA-CUSTOM] ####*/
-
-    /*## [Staff] ##*/
-
-        /*# [Percyvall] #*/
-#user-rollover.id-29319764 .badge-box > i.bdg,
-.id-29319764 > .badge-box > i.bdg
-{
-	background-image:   url("https://image.prntscr.com/image/VQWEV9GfT4K1mpg2ykFWvg.gif");
-}
-        /*# [diarista] #*/
-#user-rollover.id-30597988 .badge-box > i.bdg,
-.id-30597988 > .badge-box > i.bdg
-{
-	background-image:   url("https://image.prntscr.com/image/yJydm3M5QyqdCh90hiZzgQ.gif");
-}
-	/*## [TAG-EXTRA] ##*/
-	
-        /*# [Ninguem] #*/
-#user-rollover.id-000000 .badge-box > i.bdg,
-.id-000000 > .badge-box > i.bdg
-{
-	background-image:   url("null");
 }
 
 \---------------------------Tags:Perfil---------------------------/
