@@ -646,7 +646,7 @@ border-radius: 8px;
 		/*# [percival] #*/
 .cm.message.deletable.id-29319764::before,
 .cm.message.id-29319764::before {
-	background-image: url(https://image.prntscr.com/image/OAPJDMlRScSq8_DTJ9abLg.png);
+	background-image: url(https://image.prntscr.com/image/CUA59djNRVaK1TyzxepJbA.gif);
 	background-repeat: no-repeat;
 	content: "";
 	position: absolute;
@@ -666,6 +666,68 @@ border-radius: 8px;
 }
         /*# [percival] #*/
 #chat [data-cid^='29319764-'] .un:after, #user-lists .list .user.id-29319764 .name:after, #user-rollover.id-29319764 .username:after {
+    content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
+    margin: 5px;
+    color: #2b7b30;
+}
+
+*--------------------------------------------------------------------*
+
+/* RED */
+#user-rollover.id-30106213:before{
+    content: '';
+    top: 95px;
+    left: 185px;
+    position: absolute;
+    display: inline-block; 
+    padding: 0 3px;
+    color: #f78fd4;
+    background: linear-gradient(rgba(0, 102, 102, 0.2), rgba(0, 102, 102, 0.2));
+    border-radius: 3px;
+    font-size: 10px;
+}
+		/*# [RED] #*/
+[data-cid^="30106213-"] .msg .from .un {
+    position: relative;
+    left:-6px;
+    padding-left:20px;
+    background-image: url('https://image.prntscr.com/image/mW008u-5Q6SFjy-sUKgPBQ.png');
+    background-repeat: no-repeat;
+    background-position: 2px center;
+    background-size: 16px auto;
+}
+		/*# [RED] #*/
+[data-cid^="30106213-"] .badge-box .bdg,
+#user-rollover.id-30106213 .badge-box .bdg {
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: url("https://image.prntscr.com/image/sIAFodi4SmK1Stl6yixFyA.png");
+}
+		/*# [RED] #*/
+.cm.message.deletable.id-30106213::before,
+.cm.message.id-30106213::before {
+	background-image: url(https://image.prntscr.com/image/_58bC3VOSA2OGpuLCMWTHQ.png);
+	background-repeat: no-repeat;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .2;
+	z-index: -1;
+	background-position-y: -10px;
+	background-position-x: right;
+}
+#chat [data-cid^="30106213-"] .from {
+	background: linear-gradient(to right, rgba(0, 0, 0,.12), transparent);
+	padding: 7px;
+	border-radius: 15px;
+}
+        /*# [RED] #*/
+#chat [data-cid^='30106213-'] .un:after, #user-lists .list .user.id-30106213 .name:after, #user-rollover.id-30106213 .username:after {
     content: url(https://cdn.radiant.dj/rcs/icons/donatorDiamond.png);
     margin: 5px;
     color: #2b7b30;
